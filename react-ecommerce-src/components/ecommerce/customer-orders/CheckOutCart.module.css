@@ -1,0 +1,14 @@
+.items{
+  align-items: center;
+}
+
+.content{
+  padding: 2rem;
+}
+
+.div-content{
+  color: black;
+  font: inherit;
+  font-weight: bold;
+  align-items: center;
+}

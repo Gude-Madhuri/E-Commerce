@@ -1,0 +1,18 @@
+.div {
+  /* background:rgb(185, 182, 182); */
+  background: #c8d8e4; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 3px solid #c8d8e4;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.div:hover,
+.div:active {
+  background: white;
+  border-color: #741188;
+}
+
+.div:focus {
+  outline: none;
+}

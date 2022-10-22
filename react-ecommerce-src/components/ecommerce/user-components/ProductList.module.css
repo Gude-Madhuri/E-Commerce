@@ -1,0 +1,31 @@
+.div {
+  
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.div:hover,
+.div:active {
+  /* background:rgb(219, 222, 224); */
+  background: #f2f2f2;
+  border: 1px solid rgb(197, 198, 199);
+}
+
+.div:focus {
+  outline: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid-item {
+  /* background-color: #f2f2f2; */
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 20px;
+  /* font-size: 30px; */
+  text-align: left;
+}
